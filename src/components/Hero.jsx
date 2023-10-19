@@ -17,11 +17,13 @@ const Hero = () => {
               I'm <span className="text-themeColor">Khant Nyi Nyi</span>
             </p>
           </h1>
-          <p className={`${styles.heroSubText}`}>
+          <p data-aos="fade-right" className={`${styles.heroSubText}`}>
             I develop user interfaces and responsive web applications
           </p>
           <div className="flex justify-center">
             <a
+              data-aos="fade-up"
+              data-aos-delay="200"
               href="#contact"
               className="bg-themeColor py-2 px-4 rounded mt-4 hover:animate-pulse active:rotate-[10deg]"
             >
@@ -40,6 +42,8 @@ const Hero = () => {
               </svg>
             </div>
             <a
+              data-aos="fade-up"
+              data-aos-delay="300"
               href="#work"
               className="bg-themeColor py-2 px-4 rounded mt-4 hover:animate-pulse active:rotate-[10deg]"
             >

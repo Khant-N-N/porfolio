@@ -3,6 +3,7 @@ import { About, Contact, Hero, Navbar, Tech, Works } from "./components";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Footer from "./components/Footer";
 const App = () => {
   useEffect(() => {
     AOS.init({
@@ -19,6 +20,7 @@ const App = () => {
           <Tech />
           <Works />
           <Contact />
+          <Footer />
         </div>
       </div>
     </BrowserRouter>

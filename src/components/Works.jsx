@@ -48,7 +48,7 @@ const Works = () => {
                 Live Demo
               </a>
               <a
-                className="bg-themeColor w-4/5 xs:w-auto text-center py-2 px-4 rounded-lg mr-3 hover:shadow-[0_0_10px_var(--theme-color)] active:rotate-[10deg]"
+                className="border border-themeColor w-4/5 xs:w-auto text-center py-2 px-4 rounded-lg mr-3 hover:shadow-[0_0_10px_var(--theme-color)] active:rotate-[10deg]"
                 href={project.source_code_link}
                 target="_blank"
               >
