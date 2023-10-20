@@ -4,7 +4,7 @@ import { technologies } from "../constants/constants";
 const Tech = () => {
   return (
     <div className="flex flex-col items-center justify-start px-8 my-9">
-      <h2 className={styles.sectionHeadText}>Tools and Technology</h2>
+      <h2 className={styles.sectionHeadText}>Tools and Languages</h2>
       <div className="flex gap-6 flex-wrap justify-center mt-7">
         {technologies.map(({ name, icon, id }) => (
           <div
