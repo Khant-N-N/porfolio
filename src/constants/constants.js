@@ -16,7 +16,8 @@ import {
     ecom_pc,
     github,
     facebook,
-    linkin
+    linkin,
+    email
 } from "../assets";
 
 export const navLinks = [
@@ -101,6 +102,10 @@ const contacts = [
         logo: linkin,
         link: "https://www.linkedin.com/in/khantnyi-nyi-ab784a284/",
     },
+    {
+        logo: email,
+        link: "mailto:khantnyinyi.magnet@gmail.com"
+    }
 ]
 
 const projects = [

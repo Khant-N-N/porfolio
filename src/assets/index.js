@@ -1,4 +1,5 @@
 import facebook from "./facebook.png";
+import email from "./email.png"
 import linkin from "./linkIn.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -30,6 +31,7 @@ import cube4 from "./cube4.png";
 export {
   bootstrap,
   facebook,
+  email,
   linkin,
   github,
   menu,
