@@ -21,6 +21,8 @@ import movie_mobo from "./projects/movie_mobo.png";
 import movie_pc from "./projects/movie_pc.png";
 import gym_mobo from "./projects/gym_mobo.png";
 import gym_pc from "./projects/gym_pc.png";
+import coffee_pc from "./projects/coffee_pc.png";
+import coffee_mobo from "./projects/coffee_mobo.png";
 
 import cube1 from "./cube1.png";
 import cube2 from "./cube2.png";
@@ -50,6 +52,8 @@ export {
   movie_pc,
   gym_mobo,
   gym_pc,
+  coffee_mobo,
+  coffee_pc,
   cube1,
   cube2,
   cube3,

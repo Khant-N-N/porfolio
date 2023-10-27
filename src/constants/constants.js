@@ -14,6 +14,8 @@ import {
     gym_mobo,
     ecom_mobo,
     ecom_pc,
+    coffee_mobo,
+    coffee_pc,
     github,
     facebook,
     linkin,
@@ -137,6 +139,29 @@ const projects = [
         source_code_link: "https://github.com/Khant-N-N/movie-app",
     },
     {
+        name: "Coffee Blend",
+        description: "A website about coffee shop that includes shop's info, blogs, menu and add to cart system. The design is from the colorlib.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "redux_toolkit",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+
+        ],
+        bigScreenImage: coffee_pc,
+        smallScreenImage: coffee_mobo,
+        demo: "https://coffee-blend-jade.vercel.app/",
+        source_code_link: "https://github.com/Khant-N-N/Coffee_Blend",
+    },
+    {
         name: "Gym Exercises",
         description:
             "Web application that enables users to search for 1000 of exercises with instructions from rapidAPI's exerciseDB",
@@ -170,12 +195,16 @@ const projects = [
             },
             {
 
-                name: "dummyjson_rest_api",
+                name: "dummyjson_api",
                 color: "green-text-gradient",
             },
             {
-                name: "bootstrap",
+                name: "context_api",
                 color: "pink-text-gradient",
+            },
+            {
+                name: "bootstrap",
+                color: "orange-text-gradient",
             },
         ],
         bigScreenImage: ecom_pc,
