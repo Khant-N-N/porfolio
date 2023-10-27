@@ -10,7 +10,7 @@ const Works = () => {
         <div
           data-aos="zoom-in"
           key={id}
-          className="flex w-[90%] xs:w-4/5 max-w-[1024px] gap-10 flex-wrap my-10 move justify-center border border-secondary px-2 pb-8 xs:p-8 rounded-lg shadow-md"
+          className="flex w-[90%] xs:w-4/5 max-w-[1024px] gap-10 flex-wrap my-10 justify-center border border-secondary px-2 pb-8 xs:p-8 rounded-lg shadow-md"
         >
           <div className="relative w-60 md:w-80">
             <img

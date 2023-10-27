@@ -275,24 +275,6 @@
 
 }
 
-.move:hover {
-  animation: moving 5s alternate infinite ease;
-}
-
-@keyframes moving {
-  0% {
-    transform: rotate(1deg);
-  }
-
-  50% {
-    transform: rotate(-1deg);
-  }
-
-  100% {
-    transform: rotate(1deg);
-  }
-}
-
 .cube-fly {
   animation: cubeFly 6s linear infinite;
 }
