@@ -111,6 +111,30 @@ const contacts = [
 ]
 
 const projects = [
+
+    {
+        name: "Coffee Blend",
+        description: "A website about coffee shop that includes shop's info, blogs, menu and add to cart features. I recreate the template design from the colorlib.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "redux_toolkit",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+
+        ],
+        bigScreenImage: coffee_pc,
+        smallScreenImage: coffee_mobo,
+        demo: "https://coffee-blend-jade.vercel.app/",
+        source_code_link: "https://github.com/Khant-N-N/Coffee_Blend",
+    },
     {
         name: "WatchWatch Movie data app",
         description:
@@ -137,52 +161,6 @@ const projects = [
         smallScreenImage: movie_mobo,
         demo: "https://watchwatch-ca062.firebaseapp.com/",
         source_code_link: "https://github.com/Khant-N-N/movie-app",
-    },
-    {
-        name: "Coffee Blend",
-        description: "A website about coffee shop that includes shop's info, blogs, menu and add to cart system. The design is from the colorlib.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "redux_toolkit",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-
-        ],
-        bigScreenImage: coffee_pc,
-        smallScreenImage: coffee_mobo,
-        demo: "https://coffee-blend-jade.vercel.app/",
-        source_code_link: "https://github.com/Khant-N-N/Coffee_Blend",
-    },
-    {
-        name: "Gym Exercises",
-        description:
-            "Web application that enables users to search for 1000 of exercises with instructions from rapidAPI's exerciseDB",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "exercisedb_api",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        bigScreenImage: gym_pc,
-        smallScreenImage: gym_mobo,
-        demo: "https://exercise-lar3242.netlify.app/",
-        source_code_link: "https://github.com/Khant-N-N/Exercises_app",
     },
     {
         name: "Ecommerce Website",
@@ -212,6 +190,30 @@ const projects = [
         demo: "https://gla-ecommerce.netlify.app/",
         source_code_link: "https://github.com/Khant-N-N/Ecommerce-website",
     },
+    {
+        name: "Gym Exercises",
+        description:
+            "Web application that enables users to search for 1000 of exercises with instructions from rapidAPI's exerciseDB",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "exercisedb_api",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        bigScreenImage: gym_pc,
+        smallScreenImage: gym_mobo,
+        demo: "https://exercise-lar3242.netlify.app/",
+        source_code_link: "https://github.com/Khant-N-N/Exercises_app",
+    },
+
 ];
 
 export { technologies, projects, contacts };

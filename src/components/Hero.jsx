@@ -52,8 +52,8 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center mt-2 absolute xs:relative">
-          <div className="w-5 h-5 rounded-full bg-themeColor bottom-0 absolute bounce-animate" />
-          <div className="w-1 sm:h-80 h-40 rounded-lg bg-gradient-to-t from-themeColor to-[rgba(60, 51, 80, 0)]" />
+          {/* <div className="w-5 h-5 rounded-full bg-themeColor bottom-0 absolute bounce-animate" /> */}
+          {/* <div className="w-1 sm:h-80 h-40 rounded-lg bg-gradient-to-t from-themeColor to-[rgba(60, 51, 80, 0)]" /> */}
         </div>
       </div>
     </section>
