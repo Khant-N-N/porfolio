@@ -1,8 +1,8 @@
-import React, { useRef, useState } from "react";
-import { cube1, cube2, cube3, cube4 } from "../assets";
-import { styles } from "../style";
 import emailjs from "@emailjs/browser";
+import { useRef, useState } from "react";
+import { cube1, cube2, cube3, cube4 } from "../assets";
 import { contacts } from "../constants/constants";
+import { styles } from "../style";
 
 const Contact = () => {
   const formRef = useRef();
@@ -101,6 +101,7 @@ const Contact = () => {
               href={contact.link}
               key={index}
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src={contact.logo}

@@ -13,6 +13,7 @@ import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
+import typescript from "./tech/typescript.png";
 
 
 import ecom_mobo from "./projects/ecom_mobo.png";
@@ -31,6 +32,7 @@ import cube4 from "./cube4.png";
 
 
 export {
+  typescript,
   bootstrap,
   facebook,
   email,

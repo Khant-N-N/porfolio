@@ -1,6 +1,7 @@
 import {
     bootstrap,
     javascript,
+    typescript,
     html,
     css,
     reactjs,
@@ -70,23 +71,23 @@ const technologies = [
     },
     {
         id: 6,
+        name: "Typescript",
+        icon: typescript,
+    },
+    {
+        id: 7,
         name: "Tailwind CSS",
         icon: tailwind,
     },
     {
-        id: 7,
+        id: 8,
         name: "Bootstrap",
         icon: bootstrap,
     },
     {
-        id: 8,
+        id: 9,
         name: "git",
         icon: git,
-    },
-    {
-        id: 9,
-        name: "figma",
-        icon: figma,
     },
 
 ];
@@ -106,7 +107,7 @@ const contacts = [
     },
     {
         logo: email,
-        link: "mailto:khantnyinyi.magnet@gmail.com"
+        link: "mailto:fd.khantnyinyi@gmail.com"
     }
 ]
 
