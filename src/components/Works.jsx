@@ -1,4 +1,3 @@
-import React from "react";
 import { projects } from "../constants/constants";
 import { styles } from "../style";
 
@@ -44,6 +43,7 @@ const Works = () => {
                 className="bg-themeColor w-4/5 xs:w-auto text-center py-2 px-4 rounded-lg mr-3 hover:shadow-[0_0_10px_var(--theme-color)] active:rotate-[10deg]"
                 href={project.demo}
                 target="_blank"
+                rel="noreferrer"
               >
                 Live Demo
               </a>
@@ -51,6 +51,7 @@ const Works = () => {
                 className="border border-themeColor w-4/5 xs:w-auto text-center py-2 px-4 rounded-lg mr-3 hover:shadow-[0_0_10px_var(--theme-color)] active:rotate-[10deg]"
                 href={project.source_code_link}
                 target="_blank"
+                rel="noreferrer"
               >
                 Source Code
               </a>
